@@ -2,7 +2,7 @@
   <div id="app">
     <div class="welcome-message" v-if="isLoggedIn">
       <p class="welcome-text">안녕하세요, <span class="user-name">{{ user.name }}</span>님!</p>
-      <p class="description">오늘 식물을 돌보세요!</p>
+      <p class="description">오늘 식물을 기쁘게 돌보세요!</p>
     </div>
     <div class="brand" v-if="isLoggedIn">
       LEAFY
